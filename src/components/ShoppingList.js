@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ItemForm from "./ItemForm";
 import Filter from "./Filter";
 import Item from "./Item";
-import { v4 as uuid } from "uuid";
+//import { v4 as uuid } from "uuid";
 
 function ShoppingList({ items, onItemFormSubmit }) {
   const [selectedCategory, setSelectedCategory] = useState("All");
